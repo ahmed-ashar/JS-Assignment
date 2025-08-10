@@ -78,3 +78,10 @@
 //     alert("It's hot today!")
 // }
 
+// 12. Write a program that concatenates 'Hello' and 'World' with a space in between, then displays 'Hello World' in an alert.
+// Answer :--
+// var firstWord = 'Hello'
+// var secondWord = 'World'
+// alert(firstWord + " " + secondWord)
+
+
