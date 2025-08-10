@@ -66,3 +66,8 @@
 //     alert("Both are not equal")
 // }
 
+// 10. Create a variable named myName and assign your name to it. Display it using alert.
+// Answer :--
+// var myName = "Ahmed"
+// alert("My name is " + myName)
+
