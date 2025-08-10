@@ -56,3 +56,13 @@
 //     alert('Wrong Password')
 // }
 
+// 9. Ask the user for two numbers. If the first number is equal to the second, display 'Both are equal'.
+// Answer :--
+// var number1 = prompt("Enter First Number")
+// var number2 = prompt("Enter Second Number")
+// if (number1 === number2) {
+//     alert("Both are equal")
+// }else{
+//     alert("Both are not equal")
+// }
+
