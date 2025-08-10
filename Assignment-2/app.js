@@ -71,3 +71,10 @@
 // var myName = "Ahmed"
 // alert("My name is " + myName)
 
+// 11. Ask the user for temperature. If temperature is greater than 30, display 'It's hot today'.
+// Answer :--
+// var temperature = prompt("Enter temperature here")
+// if (temperature === '30') {
+//     alert("It's hot today!")
+// }
+
