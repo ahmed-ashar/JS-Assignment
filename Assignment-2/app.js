@@ -12,3 +12,8 @@
 //     alert(number + " is smaller than 10")
 // }
 
+// 3. Create a variable total with value 50 and add 25 to it, then display the result in an alert.
+// Answer :--
+// var value1 = 50
+// var value2 = 25
+// alert(value1 + value2)
