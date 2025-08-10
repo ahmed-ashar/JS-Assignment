@@ -84,4 +84,12 @@
 // var secondWord = 'World'
 // alert(firstWord + " " + secondWord)
 
+// 13. Ask the user for a number. If it is divisible by 2, display 'Even number'.
+// Answer :--
+// var number = prompt("Enter any number here..")
+// if (number % 2 === 0) {
+//     alert(number + ' is an even number')
+// }else{
+//     alert(number + ' is an odd number')
+// }
 
