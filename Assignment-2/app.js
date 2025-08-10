@@ -32,3 +32,9 @@
 //     alert("you are not eligable to vote")
 // }
 
+// 6. Ask the user to enter two numbers and display their sum in an alert.
+// Answer :--
+// var firstNum = +prompt("Enter first number for addition")
+// var secondNum = +prompt("Enter second number for addition")
+// alert(firstNum + secondNum)
+
