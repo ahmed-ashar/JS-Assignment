@@ -93,3 +93,10 @@
 //     alert(number + ' is an odd number')
 // }
 
+// 14. Ask the user for their city name. If the city is 'Karachi', display 'Welcome to the city of lights'.
+// Answer :--
+// var userCity = prompt("ENter your city name here..")
+// if (userCity === "Karachi") {
+//     alert("Welcome to the city of Lights")
+// }
+
