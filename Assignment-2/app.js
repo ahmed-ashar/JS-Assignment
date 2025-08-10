@@ -47,3 +47,12 @@
 //     alert("Hmm Good!")
 // }
 
+// 8. Ask the user for a password. If the password is '12345', display 'Access granted'.
+// Answer :--
+// var pass = prompt('Enter Password here')
+// if (pass === '12345') {
+//     alert("Access Granted")
+// }else{
+//     alert('Wrong Password')
+// }
+
