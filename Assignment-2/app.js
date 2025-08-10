@@ -17,3 +17,9 @@
 // var value1 = 50
 // var value2 = 25
 // alert(value1 + value2)
+
+// 4. Ask the user to enter their favorite color, then display 'Wow! [color] is my favorite too!'.
+// Answer :--
+// var userColor = prompt("Enter your favourite Color here..")
+// alert('Wow! ' + userColor + ' is my favorite too!')
+
