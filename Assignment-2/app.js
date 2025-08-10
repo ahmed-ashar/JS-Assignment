@@ -23,3 +23,12 @@
 // var userColor = prompt("Enter your favourite Color here..")
 // alert('Wow! ' + userColor + ' is my favorite too!')
 
+// 5. Ask the user for their age using prompt. If the age is greater than or equal to 18, display 'You are eligible to vote'.
+// Answer :--
+// var userAge = prompt("Enter your age here..")
+// if (userAge >=  18) {
+//     alert("Your are eligable to vote")
+// } else {
+//     alert("you are not eligable to vote")
+// }
+
