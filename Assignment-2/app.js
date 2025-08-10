@@ -100,3 +100,11 @@
 //     alert("Welcome to the city of Lights")
 // }
 
+// 15. Ask the user for their marks. If marks are greater than or equal to 50, display 'Pass', otherwise 'Fail'.
+// Answer :--
+// var marks = prompt("Enter your marks here..")
+// if (marks >= 50) {
+//     alert("Pass")
+// }else{
+//     alert('Fail')
+// }
