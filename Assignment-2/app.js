@@ -38,3 +38,12 @@
 // var secondNum = +prompt("Enter second number for addition")
 // alert(firstNum + secondNum)
 
+// 7. Ask the user to enter 'yes' or 'no'. If the answer is 'yes', display 'Great!'.
+// Answer :--
+// var userInp = prompt("Enter 'yes' or 'no' ")
+// if (userInp === "yes") {
+//     alert("Great!")
+// }else{
+//     alert("Hmm Good!")
+// }
+
