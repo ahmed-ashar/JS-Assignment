@@ -110,7 +110,12 @@
 
 // 15. Create an array [2, 4, 6, 8, 10]. Use a for loop to calculate the sum of all numbers and print it.
 // Answer :--
-
+// var numbers = [2, 4, 6, 8, 10];
+// var sum = 0;    
+// for ( var k = 0; k < numbers.length; k++ ){
+//     sum = numbers[k] + sum;
+// }
+// console.log(sum);
 
 // 16. Ask the user to enter a name. If the name is 'Alice' or 'Bob', show 'Welcome!'. Otherwise, show 'You are not authorized.'.
 // Answer :--
