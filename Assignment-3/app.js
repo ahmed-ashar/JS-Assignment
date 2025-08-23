@@ -77,7 +77,16 @@
 
 // 11. Write a program that asks the user for a month number (1–12). Use if…else if statements to display the season ('Winter', 'Spring', 'Summer', 'Autumn').
 // Answer :--
-
+// var month = +prompt("Enter month number here")
+// if ( month === 1 || month === 2 || month === 3 ){
+//     alert("Winter") 
+// }else if ( month === 4 || month === 5 || month === 6 ){
+//     alert("Spring") 
+// }else if ( month === 7 || month === 8 || month === 9 ){
+//     alert("Summer")
+// }else if ( month === 10 || month === 11 || month === 12 ){
+//     alert("Autumn")
+// }
 
 // 12. Create a loop that prints all even numbers from 2 to 20 in the console.
 // Answer :--
