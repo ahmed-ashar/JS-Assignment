@@ -49,6 +49,9 @@
 
 // 7. Write a program that removes the first element of an array of city names and then prints the updated array.
 // Answer :--
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta"];
+// cities.shift();
+// alert(cities);
 
 
 // 8. Create an array of numbers [10, 20, 30, 40, 50]. Use .splice() to remove the middle number (30) and display the array.
