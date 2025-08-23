@@ -119,7 +119,12 @@
 
 // 16. Ask the user to enter a name. If the name is 'Alice' or 'Bob', show 'Welcome!'. Otherwise, show 'You are not authorized.'.
 // Answer :--
-
+// var name = prompt("Enter your name here")
+// if ( name === "Alice" || name === "Bob" ){
+//     alert("Welcome!")
+// }else{
+//     alert("You are not authorized.")
+// }
 
 // 17. Write a program that uses nested if statements to check if a number is positive and also even. If both are true, display 'Positive Even'. If only positive, display 'Positive Odd'. Otherwise show 'Negative number'.
 // Answer :--
