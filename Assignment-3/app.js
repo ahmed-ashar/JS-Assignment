@@ -67,7 +67,13 @@
 
 // 10. Ask the user to enter 3 subjects’ marks. Store them in an array. Calculate the total and average using array values and display it.
 // Answer :--
-
+// var sub1 = +prompt("Enter marks of subject 1 here")
+// var sub2 = +prompt("Enter marks of subject 2 here")
+// var sub3 = +prompt("Enter marks of subject 3 here")
+// var marks = [sub1, sub2, sub3]
+// var total = marks[0] + marks[1] + marks[2]
+// var avg = total / marks.length
+// alert("Total marks are: " + total + " and Average is: " + avg)
 
 // 11. Write a program that asks the user for a month number (1–12). Use if…else if statements to display the season ('Winter', 'Spring', 'Summer', 'Autumn').
 // Answer :--
