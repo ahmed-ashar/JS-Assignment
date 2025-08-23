@@ -11,7 +11,12 @@
 
 // 2. Write a program that asks the user to enter a number. If the number is divisible by both 2 and 3, show 'Divisible by both'. Otherwise, show 'Not divisible by both'.
 // Answer :--
-
+// var num = +prompt("Enter any number here")
+// if ( num % 2 ---0 && num % 3 === 0 ){
+//     alert("Divisible by both")
+// }else{
+//     alert("Not divisible by both")
+// }
 
 // 3. Create a program that asks the user for a password. If it matches 'saylani123', show 'Access Granted', otherwise show 'Access Denied'.
 // Answer :--
