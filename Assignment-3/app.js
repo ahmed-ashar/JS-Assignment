@@ -90,7 +90,9 @@
 
 // 12. Create a loop that prints all even numbers from 2 to 20 in the console.
 // Answer :--
-
+// for(var o = 2; o <= 20; o += 2){
+//     console.log(o)
+// }
 
 // 13. Use a for loop to display each element of the array ['Ali', 'Sara', 'Ahmed', 'Ayesha'].
 // Answer :--
