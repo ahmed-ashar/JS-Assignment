@@ -29,7 +29,13 @@
 
 // 4. Ask the user to enter two numbers. Display the larger number using an if…else statement.
 // Answer :--
-
+// var num1 = +prompt("Enter first number here")
+// var num2 = +prompt("Enter second number here")
+// if ( num1 > num2 ){
+//     alert(num1 + " is larger")
+// }else{
+//     alert(num2 + " is larger")
+// }
 
 // 5. Create an array of 5 colors. Display the first and last color from the array in an alert.
 // Answer :--
