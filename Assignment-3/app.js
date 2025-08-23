@@ -61,7 +61,9 @@
 
 // 9. Make an array [100, 200, 300, 400, 500]. Use .slice(1, 4) and show the result in the console.
 // Answer :--
-
+// var arr = [100, 200, 300, 400, 500]
+// var sliceArr = arr.slice(1, 4)
+// console.log(sliceArr)
 
 // 10. Ask the user to enter 3 subjects’ marks. Store them in an array. Calculate the total and average using array values and display it.
 // Answer :--
