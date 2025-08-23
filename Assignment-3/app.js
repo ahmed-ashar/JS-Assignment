@@ -20,7 +20,12 @@
 
 // 3. Create a program that asks the user for a password. If it matches 'saylani123', show 'Access Granted', otherwise show 'Access Denied'.
 // Answer :--
-
+// var pass = prompt("Enter your password here")
+// if( pass === "saylani123"){
+//     alert("Access Granted")
+// }else{
+//     alert("Access Denied")
+// }
 
 // 4. Ask the user to enter two numbers. Display the larger number using an if…else statement.
 // Answer :--
