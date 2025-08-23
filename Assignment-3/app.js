@@ -128,7 +128,17 @@
 
 // 17. Write a program that uses nested if statements to check if a number is positive and also even. If both are true, display 'Positive Even'. If only positive, display 'Positive Odd'. Otherwise show 'Negative number'.
 // Answer :--
-
+// var number = +prompt("Enter any number here")
+// if ( number >= 0 ){ 
+//     if ( number % 2 === 0 ){
+//         alert("Positive Even")
+//     }
+//     else{
+//         alert("Positive Odd")
+//     }
+// }else{
+//     alert("Negative number")
+// }
 
 // 18. Create an array ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry']. Use .splice() to insert 'Mango' at the 2nd index and show the new array.
 // Answer :--
