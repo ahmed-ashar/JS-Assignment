@@ -39,11 +39,13 @@
 
 // 5. Create an array of 5 colors. Display the first and last color from the array in an alert.
 // Answer :--
-
+// var arr = ["red", "blue", "green", "yellow", "purple"];
+// alert("First color is: " + arr[0] + " and Last color is: " + arr[4]);
 
 // 6. Make an array of fruits with 3 items. Add one more fruit at the end using .push() and show the new array in console.
 // Answer :--
-
+// var fruits = ["Apple", "Banana", "Mango"];
+// fruits.push("Tomato")
 
 // 7. Write a program that removes the first element of an array of city names and then prints the updated array.
 // Answer :--
