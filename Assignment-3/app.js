@@ -96,7 +96,10 @@
 
 // 13. Use a for loop to display each element of the array ['Ali', 'Sara', 'Ahmed', 'Ayesha'].
 // Answer :--
-
+// var names = ['Ali', 'Sara', 'Ahmed', 'Ayesha'];
+// for ( var i = 0; i < names.length; i++){
+//     console.log(names[i]);
+// }
 
 // 14. Write a program that asks the user to enter a number and then displays its multiplication table using a loop (up to 10).
 // Answer :--
