@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <section id="main-navbar">
+            <section class="navbar">
+                <div class="logo-container">
+                    <img class="logo"
+                        src="https://github.com/ahmed-ashar/Assignment-Portfolio-Website/blob/main/images/logo.png?raw=true"
+                        alt="" />
+                </div>
+                <div class="nav-links">
+                    <div class="links">
+                        <a href="#Home">HOME</a>
+                        <a href="#AboutMe">ABOUT ME</a>
+                        <a href="#Projects">PROJECTS</a>
+                        <a href="#Services">SERVICES</a>
+                        <a href="#Contact">CONTACT</a>
+                    </div>
+                    <div>
+                        <button class="btn">LETS'TALK</button>
+                    </div>
+                </div>
+                <div class="bars">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </section>
+        </section>
+        <div class="res-navbar">
+            <div class="res-links">
+                <a href="#Home">HOME</a>
+                <a href="#AboutMe">ABOUT ME</a>
+                <a href="#Projects">PROJECTS</a>
+                <a href="#Services">SERVICES</a>
+                <a href="#Contact">CONTACT</a>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    
+
+
+</body>
+
+
+<script>
+
+const bars = document.querySelector(".bars");
+    const resNavbar = document.querySelector(".res-navbar");
+
+    
+        bars.addEventListener("click", () => {
+            resNavbar.style.display =
+                resNavbar.style.display === "block" ? "none" : "block";
+        });
+    
+</script>
+
+</html>

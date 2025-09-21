@@ -1,15 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const bars = document.querySelector(".bars");
-    const resNavbar = document.querySelector(".res-navbar");
-
-    if (bars) {
-        bars.addEventListener("click", () => {
-            resNavbar.style.display =
-                resNavbar.style.display === "block" ? "none" : "block";
-        });
-    }
-
-
+  
     const day = document.getElementById("day");
     const month = document.getElementById("month");
     const year = document.getElementById("year");
