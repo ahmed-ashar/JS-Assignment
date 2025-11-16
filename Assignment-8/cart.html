@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h1 { text-align: center; }
+        .cart-container { max-width: 800px; margin: auto; }
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f3f3f3;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        .cart-item img { width: 60px; height: 60px; border-radius: 10px; }
+        .btn { padding: 5px 10px; cursor: pointer; border: none; border-radius: 5px; }
+        .remove { background: red; color: white; }
+        .qty-btn { background: #333; color: white; }
+        .checkout {
+            display: block;
+            width: 100%;
+            background: green;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+            margin-top: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .empty { text-align: center; font-size: 22px; margin-top: 100px; }
+    </style>
+</head>
+<body>
+    <h1>Your Cart 🛒</h1>
+    <div id="cart-items" class="cart-container"></div>
+    <h2 id="total"></h2>
+    <button id="checkout-btn" class="checkout" style="display:none;">Proceed to Checkout</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
