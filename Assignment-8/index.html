@@ -1,80 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shoe Store</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html">Shoe Store</a>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="admin.html">Admin Panel</a>
-        <a id="cart-link" href="cart.html">Cart (<span id="cart-count">0</span>)</a>
-      </nav>
-    </div>
-  </header>
+      <div class="container header-inner">
+        <a class="brand" href="index.html">Shoe Store</a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="admin.html">Admin Panel</a>
+          <a id="cart-link" href="cart.html"
+            >Cart (<span id="cart-count">0</span>)</a
+          >
+        </nav>
+      </div>
+    </header>
 
     <!-- Swiper Carousel -->
     <!-- Swiper HTML -->
-<div class="swiper mySwiper">
-  <div class="swiper-wrapper">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            class="img1"
+            src="https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+            alt=""
+          />
+          <div class="swiper-caption">
+            <h5>Exclusive Collection</h5>
+            <p>Check out our latest arrivals and special offers.</p>
+          </div>
+        </div>
 
-    <div class="swiper-slide">
-      <img class="img1" src="Images/1.jpg" alt="">
-      <div class="swiper-caption">
-        <h5>Exclusive Collection</h5>
-        <p>Check out our latest arrivals and special offers.</p>
+        <div class="swiper-slide">
+          <img
+            class="img1"
+            src="https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp"
+            alt=""
+          />
+          <div class="swiper-caption">
+            <h5>Seasonal Sale</h5>
+            <p>Get up to 50% off on selected items.</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="img1"
+            src="https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp"
+            alt=""
+          />
+          <div class="swiper-caption">
+            <h5>Best Sellers</h5>
+            <p>Discover our most popular products.</p>
+          </div>
+        </div>
       </div>
+
+      <!-- Pagination + Navigation -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
-
-    <div class="swiper-slide">
-      <img class="img1" src="Images/2.jpg" alt="">
-      <div class="swiper-caption">
-        <h5>Seasonal Sale</h5>
-        <p>Get up to 50% off on selected items.</p>
-      </div>
-    </div>
-
-    <div class="swiper-slide">
-      <img class="img1" src="Images/3.jpg" alt="">
-      <div class="swiper-caption">
-        <h5>Best Sellers</h5>
-        <p>Discover our most popular products.</p>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- Pagination + Navigation -->
-  <div class="swiper-pagination"></div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-</div>
-
 
     <main class="container">
-    <section class="controls">
-      <select id="category-filter">
-        <option value="">All Categories</option>
-      </select>
-      <input id="search-input" placeholder="Search products..." />
-    </section>
+      <section class="controls">
+        <select id="category-filter">
+          <option value="">All Categories</option>
+        </select>
+        <input id="search-input" placeholder="Search products..." />
+      </section>
 
-    <section id="products-grid" class="product-list"></section>
-  </main>
+      <section id="products-grid" class="product-list"></section>
+    </main>
 
-  <footer class="site-footer">
-    <div class="container">© 2025 Shoe Store. All rights reserved.</div>
-  </footer>
+    <footer class="site-footer">
+      <div class="container">© 2025 Shoe Store. All rights reserved.</div>
+    </footer>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -83,59 +96,15 @@
     <script src="app.js"></script>
 
     <script>
-        var swiper = new Swiper(".mySwiper", {
-            loop: true,
-            pagination: { el: ".swiper-pagination", clickable: true },
-            navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
-            autoplay: { delay: 3000 }
-        });
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        pagination: { el: ".swiper-pagination", clickable: true },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: { delay: 3000 },
+      });
     </script>
-
-</body>
-
+  </body>
 </html>
-
-
-
-
-<!-- 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Shoe Store - Home</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html">Shoe Store</a>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="admin.html">Admin Panel</a>
-        <a id="cart-link" href="javascript:void(0)">Cart (<span id="cart-count">0</span>)</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="controls">
-      <select id="category-filter">
-        <option value="">All Categories</option>
-      </select>
-      <input id="search-input" placeholder="Search products..." />
-    </section>
-
-    <section id="products-grid" class="product-list"></section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">© 2025 Shoe Store. All rights reserved.</div>
-  </footer>
-
-  <script src="app.js"></script>
-</body>
-</html>
- -->

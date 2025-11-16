@@ -563,7 +563,6 @@ function removeFromCart(productId) {
   renderCartCount();
 }
 
-/* ---------- Boot ---------- */
 async function boot() {
   await initializeStoreIfNeeded();
   renderCartCount();
@@ -589,8 +588,8 @@ async function boot() {
     byId("box-all-categories")?.addEventListener(
       "click",
       admin_showAllCategories
-    ); // <- add this
-    admin_showAllProducts(); // show products by default
+    );
+    admin_showAllProducts();
   }
 
   if (byId("cart-items")) renderCartPage();
