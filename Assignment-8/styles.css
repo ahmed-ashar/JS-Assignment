@@ -103,12 +103,24 @@ body {
 .card h3 {
     margin: 0;
     font-size: 1.05rem;
+    
+    display: -webkit-box;        /* Flexbox ki jagah special box */
+    -webkit-line-clamp: 2;       /* Sirf 2 lines show karo */
+    -webkit-box-orient: vertical; /* Vertical layout */
+    overflow: hidden;             /* Extra text hide karo */
+    text-overflow: ellipsis; 
 }
 
 .card p {
     margin: 0;
     color: #555;
     font-size: 0.95rem;
+    
+    display: -webkit-box;        /* Flexbox ki jagah special box */
+    -webkit-line-clamp: 2;       /* Sirf 2 lines show karo */
+    -webkit-box-orient: vertical; /* Vertical layout */
+    overflow: hidden;             /* Extra text hide karo */
+    text-overflow: ellipsis; 
 }
 
 .card .price {
